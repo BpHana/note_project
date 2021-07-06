@@ -26,9 +26,9 @@ class LoginScreen extends StatelessWidget {
                     "Login",
                     style: TextStyle(
                         color: Colors.black,
-                        fontFamily: "OpenSans",
                         fontSize: 30,
-                        fontWeight: FontWeight.bold),
+                        fontWeight: FontWeight.bold
+                    ),
                   ),
                   SizedBox(height: 30),
                   _buildEmailTF(),
@@ -131,7 +131,6 @@ class LoginScreen extends StatelessWidget {
                         letterSpacing: 1.5,
                         fontSize: 18.0,
                         fontWeight: FontWeight.bold,
-                        fontFamily: 'OpenSans',
                       ),
                     ),
                   ),
